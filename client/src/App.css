@@ -1,0 +1,188 @@
+html {
+  background-color: #f3f4f6;
+  font-family: Alata;
+}
+
+.body {
+  margin-left: 270px;
+}
+
+.state {
+  margin-left: 270px;
+  position: absolute;
+}
+
+.container {
+  min-height: 563px;
+  max-height: 563px;
+}
+
+.chat-bubble-right {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 35px solid #bbf7d0;
+  transform: rotate(113deg);
+  position: absolute;
+  top: 23px;
+  left: 762px;
+}
+
+.chat-bubble-left {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 35px solid #e5e7eb;
+  transform: rotate(-113deg);
+  position: absolute;
+  top: 23px;
+  left: 62px;
+}
+
+.chat-left {
+  position: relative;
+}
+
+/* .chat-text {
+    position: relative;
+  } */
+
+.chat-right {
+  position: relative;
+}
+
+.border {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #e5e7eb;
+  border-width: 1px;
+}
+
+.border-top {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-color: #e5e7eb;
+  border-width: 1px;
+}
+
+.modal {
+  position: fixed;
+  left: 0px;
+  top:0px;
+}
+
+.emojis {
+  position: relative;
+  top:385px;
+  left: 1221px;
+}
+
+.image {
+  position: fixed;
+  top: 732px;
+  left: 1250px;
+}
+
+.users {
+  height: 660px;
+}
+
+.timestamp {
+  font-size: 10px;
+}
+
+.notifications-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.notification p {
+  margin: 0;
+}
+
+.modal-overlay {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  z-index: 1000;
+
+}
+
+
+.modal-content {
+
+  background: white;
+
+
+  border-radius: 5px;
+
+  z-index: 1001;
+
+}
+
+.modal-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  z-index: 1001; /* Ensure it's above other content */
+
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:#bbf7d0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
